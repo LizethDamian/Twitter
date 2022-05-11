@@ -28,6 +28,14 @@ Creación de un nuevo proyecto empezando desde los requerimiento
 
 Agregar servicios
 
+> Requerimiento 1: Crear un nuevo usuario con lo ya definido en el sprint anterior, usando una nueva clase llamada `UserService`.
+>> Criterios de aceptación:
+>> 1. Esta clase deberá tener un método `create` que se pueda usar sin instanciar (static method), y que reciba solo los parámetros del `id`, `username` y `name`. 
+>> 2. El valor de `bio` deberá ser por default para todos los `user` creados.
+
+> Requerimiento 2, 3, 4
+>> Realizaremos diferentes pruebas de unidad 
+
 
 
 
