@@ -1,0 +1,28 @@
+{
+    "name": "twitter",
+    "version": "1.0.0",
+    "description": "Creacion de twitter",
+    "main": "index.js",
+    "scripts": {
+        "test": "node ./node_modules/jest/bin/jest.js",
+        "start": "node index.js"
+
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/LizethDamian/Twitter.git"
+    },
+    "author": "LizethDamian",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/LizethDamian/Twitter/issues"
+    },
+    "homepage": "https://github.com/LizethDamian/Twitter#readme",
+    "devDependencies": {
+        "jest": "^28.1.0"
+    },
+    "dependencies": {
+        "@polkadot/api": "^8.3.2",
+        "npm-cli": "^0.1.0"
+    }
+}
