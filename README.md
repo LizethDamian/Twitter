@@ -36,6 +36,19 @@ Agregar servicios
 > Requerimiento 2, 3, 4
 >> Realizaremos diferentes pruebas de unidad 
 
+## Sprint 3
+
+Agregar vistas 
+
+> Requerimientos: 
+>> 1. Valida que al enviar en el `payload` un valor `null`, obtenga un objeto con la llave `error` y el valor indique `payload no existe`.
+
+>> 2. Valida que un `payload` contenga en alguna de las llaves `username`, `name`, o `id` un valor en `null`. Si hay un valor `null` regresa un objeto con la llave 
+>>  `error` y que indique el texto: `necesitan tener un valor válido`.
+
+>> 3. Valida que un `payload` con algunas de las propiedades necesarias regrese un objeto con la llave `error` indicando `necesitan tener un valor válido`.
+
+>> 4. Verifica que se pueda crear un objeto `User`, al enviar un payload con las siguientes propiedades: `username`, `id` y `name`.
 
 
 
